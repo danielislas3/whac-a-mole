@@ -40,6 +40,7 @@ function bonk(e) {
 function startGame() {
   if (started) return;
   started = true;
+  started = true;
   score = 0;
   scoreBoard.textContent = 0;
   peep();
